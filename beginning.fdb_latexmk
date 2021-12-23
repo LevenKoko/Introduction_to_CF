@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1640274549 "beginning.tex" "beginning.pdf" "beginning" 1640274554
-  "beginning.aux" 1640274553 2346 1322b00ade6f13ff4a4958f5a19f8276 "pdflatex"
-  "beginning.tex" 1640274548 16042 abc051baacacbed88233dec652b93cb8 ""
+["pdflatex"] 1640274692 "beginning.tex" "beginning.pdf" "beginning" 1640274715
+  "beginning.aux" 1640274695 2346 1322b00ade6f13ff4a4958f5a19f8276 "pdflatex"
+  "beginning.tex" 1640274690 16028 98c53fc03960e855cf8f2f9b4f6ede9a ""
   "c:/Windows/Fonts/msyh.ttc" 1536996512 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simhei.ttf" 1533762000 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simkai.ttf" 1533762000 11787328 76179557c160634a761c845ea111c893 ""
@@ -219,6 +219,6 @@
   "d:/ProgramFile/texlive/2021/texmf.cnf" 1636989507 713 e69b156964470283e0530f5060668171 ""
   "fig1.png" 1571321572 4535 0e284ca354e1b5c77378d3dfdb543874 ""
   (generated)
-  "beginning.aux"
   "beginning.log"
   "beginning.pdf"
+  "beginning.aux"
