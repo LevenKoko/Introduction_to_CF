@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.16)  23 DEC 2021 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.16)  23 DEC 2021 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,30 +554,33 @@ LaTeX Font Info:    Trying to load font information for C70+zhkai on input line 
 File: c70zhkai.fd 2009/09/23 4.8.2
 )
 Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 56.
+
+Underfull \vbox (badness 7759) has occurred while \output is active []
+
  (d:/ProgramFile/texlive/2021/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2021/06/20 v2.5.7 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {d:/ProgramFile/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 125.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 126.
  (d:/ProgramFile/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 1715) in paragraph at lines 155--159
+Underfull \hbox (badness 1715) in paragraph at lines 156--160
 \T1/ptm/m/n/10.53937 vi-ron-ment. It will not stop equa-tion num-bers in-side
  []
 
 [2]
-<fig1.png, id=130, 82.1469pt x 71.5473pt>
+<fig1.png, id=151, 82.1469pt x 71.5473pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 230.
+Package pdftex.def Info: fig1.png  used on input line 231.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
- [3 <./fig1.png (PNG copy)>]
+ [3]
 
 LaTeX Font Warning: Font shape `C70/rm/m/sc' undefined
-(Font)              using `C70/rm/m/n' instead on input line 273.
+(Font)              using `C70/rm/m/n' instead on input line 274.
 
 
 ** Conference Paper **
@@ -590,26 +593,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./beginning.aux)
+[4 <./fig1.png (PNG copy)>] (./beginning.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9123 strings out of 480278
- 162871 string characters out of 5895356
- 450540 words of memory out of 5000000
- 26604 multiletter control sequences out of 15000+600000
- 553956 words of font info for 254 fonts, out of 8000000 for 9000
+ 9335 strings out of 480278
+ 165653 string characters out of 5895356
+ 457540 words of memory out of 5000000
+ 26788 multiletter control sequences out of 15000+600000
+ 558006 words of font info for 269 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,11n,70p,718b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{d:/ProgramFile/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c
-:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
-s/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on beginning.pdf (4 pages, 318352 bytes).
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
+s/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/ProgramFile/texlive/2021/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on beginning.pdf (4 pages, 356128 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 452 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
