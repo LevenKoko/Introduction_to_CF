@@ -1,0 +1,54 @@
+\documentclass[UTF8]{ctexart}
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry} %ҳ�߾�
+\usepackage{amsmath, amsfonts, amssymb} % ��ѧ��ʽ������
+\usepackage[english]{babel}
+\usepackage{graphicx}   % ͼƬ
+\usepackage{url}        % ������
+\usepackage{bm}         % �Ӵַ�������
+\usepackage{indentfirst} %��������
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{float}
+\usepackage{algorithmic}
+\usepackage{inconsolata}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{abstract}
+\usepackage{multicol}
+\setlength{\parindent}{2em}
+\CTEXsetup[format={\Large\bfseries}]{section}
+\title{\textbf{一种基于智能合约的新型校园外卖体系探索}}
+\author{\sffamily 张三，李四，王五\\ \sffamily(电子科技大学，四川 \ 成都)}
+% \author{\sffamily 李四}
+\date{}
+
+\newcommand\picturehere[2][1]{\centerline{\includegraphics[scale = #1]{#2}}}
+\newcommand\picfig[1]{\begin{center}\small \heiti #1 \songti \end{center}}
+
+
+\begin{document}
+  \maketitle
+  \textbf{\kaishu摘 \ 要：\heiti  \small 在疫情封锁下的大学校园内，校园外卖的取送效率已然成为难题，本文便以此为研究对象，通过对现有校园外卖平台存在的问题的发现，以智能合约技术以及相应的金融手段延时保险为基础，提出一种期望提高校园外卖效率的解决方案。目前校园外卖时间周期长的主要原因为中间流程分级多，校园内兼职骑手数量少且学业压力大。对此，我们希望提出一种点对点的人人可以充当骑手的取送系统，同时减少中间流程，以最大限度提升取送效率。同时“人人可送”的特点决定了该平台准入规则应对诚信要求度极高，因而我们选用了智能合约的方式来确保交易的顺利进行。另一方面，我们也通过研究现有大型外平台，建立了一套针对校园外卖的延时险模型与信用评估模型，借此进一步提高平台的效率问题。}
+  \\
+  \indent
+  \textbf{\kaishu关键词：\heiti  \small 校园外卖，智能合约，延时保险，信用风险评估，效率}
+\begin{multicols}{2}
+  \setcounter{section}{-1}
+  \section{引言}
+  外卖平台和消费者都有对外卖延误险的需求，根据艾媒咨询发布的《2017-2018年中国在线餐饮外卖市场研究报告》\cite{None20182017}结果显示，“送餐速度”是影响用户选择外卖平台的第二大因素，第一名是食品安全保障，可见外卖消费者对配送的时效性要求很高。而截至2021年12月22日，我们研究了电子科技大学现有的三个外卖平台（空投闪送、科大闪送、成电校园易取送）均未设置外卖延时险的功能。\\
+  \indent 事实上，这种情况出现的原因有三。一是因为校园外卖的平台管理者与配送的骑手本身为在校学生，学业任务繁重，加之校园特有的二次传输性质（见图1）。二是现有校园外卖延误频发，为此产生的红包赔偿是一笔巨大的开销。三是外卖平台与配送平台是两个不同的主体，在订单迟到后，外卖平台需要分别处理顾客的赔付、投诉工作和对配送平台的管理、培养骑手等合作洽谈工作，存在内部管理低效率的损失。而由于上述原因的存在，不仅电子科技大学，基本全国高校的校园外卖模式都存在以上痛点。
+  \picturehere[0.6]{image/tradition.png}
+  \picfig{图1 \ \ 传统校园外卖模式}%
+  \indent 基于此，本文希望通过提出一种采用智能合约的新型校园外卖模式，让用户与骑手实现点对点的直接交易，减少中间过程，同时在合约内新增外卖延时险功能以激励骑手效率，最终达到大幅优化校园外卖传输速率的目的。
+  \section{新型模式介绍}
+  这里是新型模式介绍
+  \section{信用评估和准入规则}
+  这里是信用评估和准入规则
+\end{multicols}
+
+
+\bibliographystyle{unsrt}
+\bibliography{bib}
+\end{document}
