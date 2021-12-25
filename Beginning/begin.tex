@@ -7,33 +7,34 @@
 \usepackage{bm}         % �Ӵַ�������
 \usepackage{indentfirst} %��������
 \usepackage{multirow}
-\usepackage{booktabs}
+% \usepackage{booktabs}
 \usepackage{listings}
 \usepackage{algorithm}
-\usepackage{float}
+% \usepackage{float}
 \usepackage{algorithmic}
 \usepackage{inconsolata}
 \usepackage{color}
 \usepackage{xcolor}
-\usepackage{abstract}
+% \usepackage{abstract}
 \usepackage{multicol}
 \setlength{\parindent}{2em}
 \CTEXsetup[format={\Large\bfseries}]{section}
+
 \title{\textbf{一种基于智能合约的新型校园外卖体系探索}}
 \author{\sffamily 张三，李四，王五\\ \sffamily(电子科技大学，四川 \ 成都)}
 % \author{\sffamily 李四}
 \date{}
 
 \newcommand\picturehere[2][1]{\centerline{\includegraphics[scale = #1]{#2}}}
-\newcommand\picfig[1]{\begin{center}\small \heiti #1 \songti \end{center}}
+\newcommand\picfig[1]{\centerline{\small \heiti #1 \songti }}
 
 
 \begin{document}
   \maketitle
   \textbf{\kaishu摘 \ 要：\heiti  \small 在疫情封锁下的大学校园内，校园外卖的取送效率已然成为难题，本文便以此为研究对象，通过对现有校园外卖平台存在的问题的发现，以智能合约技术以及相应的金融手段延时保险为基础，提出一种期望提高校园外卖效率的解决方案。目前校园外卖时间周期长的主要原因为中间流程分级多，校园内兼职骑手数量少且学业压力大。对此，我们希望提出一种点对点的人人可以充当骑手的取送系统，同时减少中间流程，以最大限度提升取送效率。同时“人人可送”的特点决定了该平台准入规则应对诚信要求度极高，因而我们选用了智能合约的方式来确保交易的顺利进行。另一方面，我们也通过研究现有大型外平台，建立了一套针对校园外卖的延时险模型与信用评估模型，借此进一步提高平台的效率问题。}
   \\
-  \indent
-  \textbf{\kaishu关键词：\heiti  \small 校园外卖，智能合约，延时保险，信用风险评估，效率}
+  \indent \textbf{\kaishu关键词：\heiti  \small 校园外卖，智能合约，延时保险，信用风险评估，效率}
+  \pagestyle{plain}	% 去除页眉
 \begin{multicols}{2}
   \setcounter{section}{-1}
   \section{引言}
@@ -43,8 +44,26 @@
   \picfig{图1 \ \ 传统校园外卖模式}%
   \indent 基于此，本文希望通过提出一种采用智能合约的新型校园外卖模式，让用户与骑手实现点对点的直接交易，减少中间过程，同时在合约内新增外卖延时险功能以激励骑手效率，最终达到大幅优化校园外卖传输速率的目的。
   \section{新型模式介绍}
-  这里是新型模式介绍
+
+  \subsection{骑手}
+  \indent 在该设计平台中，与传统模式不同之处最大的便是骑手环节。\\
+  \indent 考虑到校园周边商圈繁华，基本可以满足校园内学生的外卖需求，同时各个时段都有一定量的学生会在外活动并在某一时段返回学校。因此，这些同学的出入校行为均可以被认作是“闲置的资源”。若这些同学愿意接受在一定的报酬下进行帮助陌生同学将其下单所在店铺内的外卖订单带入校园并送至下单人寝室，则下单人（即用户顾客）可以获得更高效的外卖配送，“骑手”则可以在顺路回校的过程中获得更相应报酬。\\
+  \picturehere[0.6]{image/new1.png}
+  \picfig{简化后的流程示意图}
+  \indent 当然，这里的“人人可送”是有先决条件的，而智能合约最重要的便是其安全性。如若让很多“不诚信”骑手接单，最后订单并没有安全按时的送到用户手里，最终会导致平台的可信度降低，口碑崩塌，用户减少。因而我们在后文将提出相应的准入制度、信用评级制度、延时险激励制度，以此来提高骑手的诚信度与积极性。\\
+  \subsection{平台商家互动}
+  \indent
+  \subsection{平台用户互动}
+  \indent
+
+
+
   \section{信用评估和准入规则}
+  这里是信用评估和准入规则\\
+  这里是信用评估和准入规则\\
+  这里是信用评估和准入规则\\
+  这里是信用评估和准入规则\\
+  这里是信用评估和准入规则\\
   这里是信用评估和准入规则
 \end{multicols}
 
