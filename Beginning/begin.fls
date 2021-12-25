@@ -999,7 +999,8 @@ INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei91
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei5e.tfm
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei96.tfm
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei63.tfm
-INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong03.tfm
+INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8f.tfm
+INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei60.tfm
 INPUT ./begin.bbl
 INPUT begin.bbl
 INPUT ./begin.bbl
@@ -1016,7 +1017,6 @@ INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simkai.ttf
-INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
@@ -1158,6 +1158,7 @@ INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT d:/ProgramFile/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

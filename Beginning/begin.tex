@@ -91,7 +91,22 @@
   \subsection{用户下单}
   用户下单金额为$S$，期望骑手费为$R(R>R^{*})$，期望时间为$T$，用户需往平台中充入$S+R$。
   \subsection{商家接单}
-  商家接单后需往平台中充入R×α（α>1），出单时间为t₁（容忍时间为t*）。
+  商家接单后需往平台中充入$R×\alpha(\alpha>1)$，出单时间为$t_1$（容忍时间为$t_1^{*}$）。
+  \subsection{骑手接单}
+     骑手接单后需往平台中充入$S×\beta(\beta>1)$，送达时间为$t_2$。
+  \subsection{送达情况}
+  \subsection{成功送达}
+    送达后，则进行返还押金与分配利润的步骤。
+    对商家有：
+    $$
+    M_s=\left\{
+      \begin{array}{lr}
+        R \times \alpha + S,  & {t_1 \leq t_1^{*}}\\
+        R \times \alpha \times f(t_1-t_1^{*}) + S \times \gamma, & {t_1 > t_1^{*}}
+      \end{array}\right.
+    $$
+    
+
 
 \end{multicols}
 
