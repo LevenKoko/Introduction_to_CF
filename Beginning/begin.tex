@@ -1,11 +1,11 @@
 \documentclass[UTF8]{ctexart}
-\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry} %ҳ�߾�
-\usepackage{amsmath, amsfonts, amssymb} % ��ѧ��ʽ������
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+\usepackage{amsmath, amsfonts, amssymb}
 \usepackage[english]{babel}
-\usepackage{graphicx}   % ͼƬ
-\usepackage{url}        % ������
-\usepackage{bm}         % �Ӵַ�������
-\usepackage{indentfirst} %��������
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{bm}
+\usepackage{indentfirst}
 \usepackage{multirow}
 % \usepackage{booktabs}
 \usepackage{listings}
@@ -60,17 +60,39 @@
   \subsection{平台用户互动}
   \indent 用户在下单过程中，可以查看当前想要购买的商家附近的可配送骑手人数，下单过后，系统自动根据骑手信息、商家信息以及当前配送条件生成预计配送时间\footnote{该部分超出本文讨论范围，暂不涉及。}。若用户购买延时险，则若订单延迟，平台会返还给用户与订单金额相关的一定赔偿。
   \picturehere[0.5]{image/contract.png}
-  \picfig{图三 \ \ 合约与三方的互动}
+  \picfig{图3 \ \ 合约与三方的互动}
 
 
 
   \section{信用评估和准入规则}
-  这里是信用评估和准入规则\\
-  这里是信用评估和准入规则\\
-  这里是信用评估和准入规则\\
-  这里是信用评估和准入规则\\
-  这里是信用评估和准入规则\\
-  这里是信用评估和准入规则
+  \subsection{信用评估方式}
+  \subsubsection{初始值}
+  $$C_0=0.3\times C_p + 0.7 \times \frac{z}{950} \times 100$$
+
+  $$C_0=\frac{z}{950} \times 100$$
+  这里是初始值\\
+  这里是初始值\\
+  这里是初始值\\
+  这里是初始值
+  \subsubsection{动态评估}
+  $$C_p^\prime=C_p-\ln(\frac{C_0}{65})\times e^2$$
+  这里是动态评估
+  \subsection{准入规则}
+  \subsubsection{推荐制}
+  \indent 本平台使用的推荐制是通过原本平台内的正式外卖员参与，经过他们的推荐与信用评估来完成新外卖员的纳新，但新外卖员的信用水平会一定程度上影响推荐者的信用水平。被推荐并通过评估的外卖员将成为正式外卖员，不需要提交押金即可进行接单。\\
+  \indent “供求关系”是经济学的基石, 是指在商品经济条件下, 商品供给和需求之间的相互联系、相互制约的关系。外卖平台对优秀外卖员的争夺, 类似于商品经济中对商品的追求。“接收”平台相当于“买方”, 推荐用户相当于“卖方”, 新进外卖员则是推荐用户生产的“商品”。某一被推荐的外卖员, 热爱工作、积极进取, 则在市场上处于“供不应求”的地位;反之, 平台自身对外卖员待遇差, 优秀的外卖员自然不愿意与此平台签订合约, 必然导致“供大于求”。\\
+  \indent 基于“供求关系”的分析可知, 推荐资格、推荐名额的分配, 以及接收推荐外卖员的比例, 应交由“市场需求”自主调节, 充分发挥“市场”调节的效率, 高效准确地选拔出优秀的外卖员。通过“市场”的优胜劣汰, 激发平台自身的发展潜力, 一方面, 推荐用户会高度重视自身的相关利益, 谨慎决定推荐数量与对象, 培养出符合平台需求的优秀外卖员。另一方面, 平台也会不断为新进外卖员提供优质的接单渠道等, 吸引更多的外卖员加入。
+  \picturehere[0.45]{image/tree.png}
+  \picfig{图4  \ \ 推荐制示意图}
+  \subsubsection{押金制}
+  \indent 本平台使用的押金制是等价抵押机制。非正式骑手可以通过提交与所接单价值等价的金额来完成接单，并在订单完成后与报酬一同汇入非正式骑手的账户中。随着此类订单完成次数的增加，非正式骑手的信用值会相应增加，随着信用值增加骑手所需缴纳的押金会逐渐减少，而信用值到一定程度后可申请成为正式骑手，此后接单将不再需要押金。\\
+  \indent 押金能有效地保障消费者的权益，降低交易费用，从而保障交易安全。押金的存在避免了部分新进外卖员偷餐、毁坏订单等举动后销号退出的逃避后果的行为，是外卖员前期信用保证的辅助制度。
+  \section{延时保险模型}
+  \subsection{用户下单}
+  用户下单金额为$S$，期望骑手费为$R(R>R^{*})$，期望时间为$T$，用户需往平台中充入$S+R$。
+  \subsection{商家接单}
+  商家接单后需往平台中充入R×α（α>1），出单时间为t₁（容忍时间为t*）。
+
 \end{multicols}
 
 
