@@ -10,7 +10,7 @@
 % \usepackage{booktabs}
 \usepackage{listings}
 \usepackage{algorithm}
-% \usepackage{float}
+\usepackage{float}
 \usepackage{algorithmic}
 \usepackage{inconsolata}
 \usepackage{color}
@@ -89,15 +89,39 @@
   \indent 押金能有效地保障消费者的权益，降低交易费用，从而保障交易安全。押金的存在避免了部分新进外卖员偷餐、毁坏订单等举动后销号退出的逃避后果的行为，是外卖员前期信用保证的辅助制度。
   \section{延时保险模型}
   \subsection{用户下单}
+  \begin{table}[H]
+  \centering
+  \caption{变量解释}
+  \begin{tabular}{|c|c|}
+    \hline
+  a           & 1           \\ \hline
+  b           & 3           \\ \hline
+  c           & 3           \\ \hline
+  d           & 5           \\ \hline
+  \end{tabular}
+  \end{table}
+%   \begin{table*}
+%   \centering
+%   \caption{Table of students.}
+%   \begin{tabular}{|c|c|c|}
+%   \hline
+%   Name & Age & Gender  \\
+%   Cat & 3 & Girl  \\
+%   Dog & 5 & Boy \\
+%   \hline
+%   \end{tabular}
+%   \label{table:stu}
+% \end{table*}
   用户下单金额为$S$，期望骑手费为$R(R>R^{*})$，期望时间为$T$，用户需往平台中充入$S+R$。
   \subsection{商家接单}
   商家接单后需往平台中充入$R×\alpha(\alpha>1)$，出单时间为$t_1$（容忍时间为$t_1^{*}$）。
   \subsection{骑手接单}
      骑手接单后需往平台中充入$S×\beta(\beta>1)$，送达时间为$t_2$。
   \subsection{送达情况}
-  \subsection{成功送达}
-    送达后，则进行返还押金与分配利润的步骤。
-    对商家有：
+  \indent 送达后，则进行返还押金与分配利润的步骤。
+  \subsubsection{成功送达}
+    \indent下面讨论用户购买了延时保险的情况。 \\
+    \indent 对商家有：
     $$
     M_s=\left\{
       \begin{array}{lr}
@@ -105,8 +129,28 @@
         R \times \alpha \times f(t_1-t_1^{*}) + S \times \gamma, & {t_1 > t_1^{*}}
       \end{array}\right.
     $$
-    
+    \indent 对骑手有：\\
+    \indent令$$T_{md} = S \times \beta $$
+    $$ G_{md}=R \times g(t_2-T+t_1^{*})$$
+    \indent 则
+    $$
+    M_t=\left\{
+      \begin{array}{lr}
+        T_{md}+R,  & {t_2 \leq T-t_1^{*}}\\
+        T_{md} + G_{md} + S \times \gamma, & {t_2 > T -t_1^{*}}
+      \end{array}\right.
+    $$
+    \indent 对用户有：若$t_1+t_2>T$,则将合约内与该订单相关的钱悉数退回。
+  \subsubsection{丢单}
 
+  \indent 对商家有：
+  $$M_s=R \times \alpha $$
+  \indent 对骑手有：
+  $$M_t=S \times \beta \times \sigma$$
+  \indent 对用户有:
+  $$M_c=S \times (1+\beta)+R \times (1+\alpha)-M_s-M_t$$
+  \subsubsection{无人接单}
+  \indent 用户可选择提高$R$以吸引其他骑手接单，或者选择取消订单，但需要支付一定的赔偿与手续费用于赔偿商家的损失。
 
 \end{multicols}
 
