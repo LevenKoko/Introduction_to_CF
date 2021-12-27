@@ -4,45 +4,45 @@ The top-level auxiliary file: begin.aux
 The style file: plain.bst
 Database file #1: bib.bib
 Warning--there's a number but no volume in None20182017
-You've used 1 entry,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            504 strings with 4108 characters,
-and the built_in function-call counts, 252 in all, are:
-= -- 22
-> -- 7
+            509 strings with 4200 characters,
+and the built_in function-call counts, 456 in all, are:
+= -- 42
+> -- 14
 < -- 0
-+ -- 3
-- -- 2
-* -- 18
-:= -- 51
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
++ -- 6
+- -- 4
+* -- 26
+:= -- 90
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 11
-empty$ -- 22
-format.name$ -- 2
-if$ -- 48
+cite$ -- 3
+duplicate$ -- 21
+empty$ -- 39
+format.name$ -- 4
+if$ -- 89
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 3
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 7
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 6
 quote$ -- 0
-skip$ -- 5
+skip$ -- 12
 stack$ -- 0
-substring$ -- 8
-swap$ -- 1
+substring$ -- 13
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 8
 warning$ -- 1
-while$ -- 3
-width$ -- 2
-write$ -- 13
+while$ -- 5
+width$ -- 3
+write$ -- 23
 (There was 1 warning)
