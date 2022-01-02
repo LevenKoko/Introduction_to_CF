@@ -3,46 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: begin.aux
 The style file: plain.bst
 Database file #1: bib.bib
-Warning--there's a number but no volume in None20182017
-You've used 2 entries,
+You've used 1 entry,
             2118 wiz_defined-function locations,
-            509 strings with 4200 characters,
-and the built_in function-call counts, 456 in all, are:
-= -- 42
-> -- 14
+            502 strings with 4078 characters,
+and the built_in function-call counts, 224 in all, are:
+= -- 20
+> -- 7
 < -- 0
-+ -- 6
-- -- 4
-* -- 26
-:= -- 90
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 8
++ -- 3
+- -- 2
+* -- 10
+:= -- 48
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 21
-empty$ -- 39
-format.name$ -- 4
-if$ -- 89
+cite$ -- 1
+duplicate$ -- 10
+empty$ -- 18
+format.name$ -- 2
+if$ -- 42
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 7
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 4
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 3
 quote$ -- 0
-skip$ -- 12
+skip$ -- 7
 stack$ -- 0
-substring$ -- 13
-swap$ -- 2
+substring$ -- 5
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 1
-while$ -- 5
-width$ -- 3
-write$ -- 23
-(There was 1 warning)
+type$ -- 4
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 12
