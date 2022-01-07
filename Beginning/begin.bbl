@@ -1,8 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{fuck}
-莫子麟.
-\newblock 基于区块链的快递运输保价智能合约设计与实现.
-\newblock {\em 广西大学}, 2019.
+\bibitem{ref1}
+尚丹.
+\newblock 发展中的区块链.
+\newblock {\em 信息系统工程}, (4):4, 2018.
+
+\bibitem{ref2}
+冯毅.
+\newblock {\em 基于区块链的智能物流系统的研究与实现}.
+\newblock PhD thesis, 电子科技大学, 2019.
+
+\bibitem{ref3}
+任超.
+\newblock {\em
+  基于区块链的智能物流数据分析平台研究与实现}.
+\newblock PhD thesis, 电子科技大学, 2020.
+
+\bibitem{ref4}
+Eos.io technical white paper v2, 2018.
+
+\bibitem{ref5}
+Arista Networks.
+\newblock Eos: the modern cloud network operating system, 2017.
 
 \end{thebibliography}
